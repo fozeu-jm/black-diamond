@@ -1,0 +1,36 @@
+body{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+        ), url('../images/login.jpg');
+}
+
+.login h1 a {
+    background-image: url('../images/logo_transparent.png');
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background-size: 202px;
+}
+
+.login form {
+    background-color: rgba(67,78,90,0.8);
+    border-radius: 5%;
+    width: 300px;
+    
+}
+
+.login label {
+    color: white;
+   
+}
+
+.login form .input{
+   
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.login #nav a,.login #backtoblog a{
+    color: white;
+}

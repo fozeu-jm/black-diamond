@@ -1,0 +1,161 @@
+/*
+Theme Name: Parador
+Author: KAIZERWEBDESIGN - +237 696 46 83 33
+Version: 1.0
+*/
+@import url(css/core-style.css);
+
+@media (max-width: 991.98px) {
+    .testiral{
+        margin-top: 50px;
+    }
+
+}
+
+
+@media (max-width: 599px) {
+    .logo-img{
+        max-width: 70% !important;
+    }
+
+}
+
+@media (min-width: 600px) and (max-width:991px) {
+    .logo-img{
+        max-width: 40% !important;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1050px) {
+    .site-menu-toggle{
+        margin-right: 74px;
+    }
+}
+
+strong{
+    font-weight: bold;
+}
+
+@media (max-width: 800px) {
+    .services{
+        padding-left: 40px!important;
+        padding-right: 40px!important;
+    }
+
+    .container-single{
+        padding:0 20px 0 20px!important;
+    }
+
+    .site-navbar{
+        background: url('images/pattern-mobile.png')!important;
+        background-size: cover!important;
+        background-origin: border-box!important;
+        overflow: auto!important;
+    }
+
+    .site-logo {
+        padding-left: 15px;
+    }
+
+}
+
+@media (min-width: 800px) {
+    .desc-div{
+        margin-top: 2%;
+    }
+}
+
+.owl-carousel.single-slider .owl-dots .owl-dot {
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    outline: none !important;
+    position: relative;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    background: #fff;
+}
+.owl-carousel.single-slider .owl-dots .owl-dot.active {
+    border: 2px solid white;
+    background: none;
+}
+
+.owl-carousel.single-slider .owl-dots {
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+}
+
+.container-single{
+    padding:0 100px 0 100px;
+}
+
+.p-heading{
+    height: 40px;
+}
+
+.btn.btn-outline-black-primary{
+    border: 2px solid #000;
+}
+
+.single-old-price{
+    font-family: "Ubuntu", sans-serif;
+    color: #787878;
+    text-decoration: line-through;
+}
+
+label{
+    font-family: "Ubuntu", sans-serif;
+}
+
+input:read-only{
+    background-color: white !important;
+}
+
+.media-body p {
+    text-align: justify;
+}
+
+.blog-content p {
+    text-align: justify;
+    color: black;
+}
+
+.testiral p {
+    text-align: justify;
+}
+
+.form-container form {
+    border: 1px solid #dee2e6!important;
+    padding: 3rem!important;
+    margin-bottom: 50px;
+}
+
+.form-container label{
+    width: 100%;
+}
+
+.site-navbar{
+    overflow: hidden;
+    background: url('images/pattern.png');
+}
+
+.site-navbar nav .menu li:hover a {
+    color: #ffba5a;
+}
+
+.site-navbar nav .menu li a {
+    /*text-transform: uppercase;*/
+}
+
+.full-width{
+    width: 100%;
+}
+.site-header.scrolled{
+    box-shadow: 0 5px 34px 6px rgba(0,0,0,0.1);
+}
+
